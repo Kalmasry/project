@@ -6,7 +6,7 @@ This is a sample readme file for our project, our project is to make a robot rea
 * function calc_distance:
 Calculates distance between two points
 
-* function point_to_line(p_1, p_2, p_3):
+* function point_to_line:
 Defines a line passing through two points, it determines whether the tangent to the line passing through a third point intersects between the first two.
 
 ### CLass RRT:
