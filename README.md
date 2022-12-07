@@ -2,16 +2,22 @@
 This is a sample readme file for our project, our project is to make a robot reach its goal safely without passing through the obstacles.
 
 ## Table of contents:
+* [Team Membera](#team-members)
 * [Python version and Libraries we used](#python-version-and-libraries-we-used)
 * [Path planning using RRT](#path-planning-using-rrt)
 * [Add a robot and make it move on the RRT path plan](#add-a-robot-and-make-it-move-on-the-rrt-path-plan)
+
+## Team Members:
+* Abdelrahaman Mohamed Ghonamy
+* Khalid Ahmed Almasry
+
 ## Python version and Libraries we used:
 * python version 3.6.9
 * random
 * math
-* matplotlib 
+* matplotlib version 3.3.4
 * matplotlib.pyplot 
-* from roboticstoolbox: Bicycle, RandomPath, VehicleIcon
+* from roboticstoolbox(version 0.10.1): Bicycle, RandomPath, VehicleIcon
 
 ## Path planning using RRT
 ```
