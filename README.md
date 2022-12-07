@@ -1,5 +1,10 @@
 # Computer Eng Assessment 3
 This is a sample readme file for our project, our project is to make a robot reach its goal safely without passing through the obstacles.
+
+## Table of contents:
+* [Python version and Libraries we used](#python-version-and-libraries-we-used)
+* [Path planning using RRT](#path-planning-using-rrt)
+* [Add a robot and make it move on the RRT path plan](#add-a-robot-and-make-it-move-on-the-rrt-path-plan)
 ## Python version and Libraries we used:
 * python version 3.6.9
 * random
@@ -48,3 +53,4 @@ Generates a tree of nodes until it finds the goal to draw a straight line to the
 * function find_path:
 Works backward through the list of points to find the path from start to finish.
 ```
+## Add a robot and make it move on the RRT path plan:
