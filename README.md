@@ -1,8 +1,9 @@
 # Computer Eng Assessment 3
 This is a sample readme file for our project, our project is to make a robot reach its goal safely without passing through the obstacles.
+(Note:RRTSTAR.py and runrrtstar.py are additional files, we worked hard on this path plan but unfortunately we didn't know how to add a robot from roboticstoolbox to its graph)
 
 ## Table of contents:
-* [Team Membera](#team-members)
+* [Team Members](#team-members)
 * [Python version and Libraries we used](#python-version-and-libraries-we-used)
 * [Path planning using RRT](#path-planning-using-rrt)
 * [Add a robot and make it move on the RRT path plan](#add-a-robot-and-make-it-move-on-the-rrt-path-plan)
