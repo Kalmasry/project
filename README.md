@@ -1,16 +1,23 @@
 # Computer Eng Assessment 3
 This is a sample readme file for our project, our project is to make a robot reach its goal safely without passing through the obstacles.
+## Python version and Libraries we used:
+* python version 3.6.9
+* random
+* math
+* matplotlib 
+* matplotlib.pyplot 
+* from roboticstoolbox: Bicycle, RandomPath, VehicleIcon
 
 ## Path planning using RRT
-
+```
 * function calc_distance:
 Calculates distance between two points
 
 * function point_to_line:
 Defines a line passing through two points, it determines whether the tangent to the line passing through a third point intersects between the first two.
-
-### CLass RRT:
-
+```
+### Class RRT:
+```
 * function init:
 contains variables that are used once
 
@@ -40,3 +47,4 @@ Generates a tree of nodes until it finds the goal to draw a straight line to the
 
 * function find_path:
 Works backward through the list of points to find the path from start to finish.
+```
