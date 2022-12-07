@@ -108,7 +108,7 @@ class RRT(object):
 
         return min(range(len(d_list)), key=d_list.__getitem__)
 
-    def gen_node(self):
+    def gen_node(self):#Generates nodes until it finds the goal
     
         point_ok = False
         node_name = "q{}".format(len(self.nodes_list))
@@ -175,7 +175,7 @@ class RRT(object):
 
         self.segments_list.append([self.nodes_list[-1][1], self.end])
 
-    def gen_tree(self):
+    def gen_tree(self):#Generates a tree of nodes until it finds the goal to draw a straight line to the goal
         done = False
 
         while not done:
