@@ -7,6 +7,8 @@ This is a sample readme file for our project, our project is to make a robot rea
 * [Path planning using RRT](#path-planning-using-rrt)
 * [Running RRT path plan flow chart](#running-rrt-path-plan-flow-chart)
 * [Add a robot and make it move on the RRT path plan](#add-a-robot-and-make-it-move-on-the-rrt-path-plan)
+* [Controlling robot movement flow chart](#controlling-robot-movement-flow-chart)
+* [Code Limitations](#code-limitations)
 
 ## Team Members:
 * Abdelrahaman Mohamed Ghonamy
@@ -20,7 +22,7 @@ This is a sample readme file for our project, our project is to make a robot rea
 * matplotlib.pyplot 
 * from roboticstoolbox(version 0.10.1): Bicycle, RandomPath, VehicleIcon
 
-## Path planning using RRT
+## Path planning using RRT:
 ```
 * function calc_distance:
 Calculates distance between two points
@@ -60,7 +62,11 @@ Generates a tree of nodes until it finds the goal to draw a straight line to the
 * function find_path:
 Works backward through the list of points to find the path from start to finish.
 ```
-## Running RRT path plan flow chart
+## Running RRT path plan flow chart:
 ![image](https://user-images.githubusercontent.com/114658809/206564852-06696816-fb8f-47aa-b7ed-99b55b2b237e.png)
 
 ## Add a robot and make it move on the RRT path plan:
+
+## Controlling robot movement flow chart:
+
+## Code Limitations:
