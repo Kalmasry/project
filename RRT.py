@@ -28,7 +28,7 @@ class RRT(object):
 
         self.side_len = 100
 
-        self.num_obs = random.randint(15, 50)# number of obstacles
+        self.num_obs = random.randint(15, 40)# number of obstacles
         self.obstacle_props = self.gen_obstacles(self.num_obs)# generate obstacle list
 
         self.start, self.end = self.gen_start_end()# start and end points
