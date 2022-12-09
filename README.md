@@ -5,8 +5,6 @@ This is a sample readme file for our project, our project is to make a robot rea
 * [Team Members](#team-members)
 * [Python version and Libraries we used](#python-version-and-libraries-we-used)
 * [Path planning using RRT](#path-planning-using-rrt)
-* [Running RRT path plan flow chart](#running-rrt-path-plan-flow-chart)
-* [Add a robot and make it move on the RRT path plan](#add-a-robot-and-make-it-move-on-the-rrt-path-plan)
 * [Controlling robot movement flow chart](#controlling-robot-movement-flow-chart)
 * [Code Limitations](#code-limitations)
 
@@ -61,9 +59,6 @@ Generates a tree of nodes until it finds the goal to draw a straight line to the
 * function find_path:
 Works backward through the list of points to find the path from start to finish.
 ```
-## Running RRT path plan flow chart:
-![image](https://user-images.githubusercontent.com/114658809/206564852-06696816-fb8f-47aa-b7ed-99b55b2b237e.png)
-
 ## visualization of RRT* Path Finding :
 ![image](https://user-images.githubusercontent.com/114488000/206672837-721498a7-f4e8-4ac8-a93e-75514b28df64.png)
 
@@ -72,6 +67,8 @@ Works backward through the list of points to find the path from start to finish.
 ![image](https://user-images.githubusercontent.com/114488000/206672984-0bcb9327-531a-4084-8e58-22694f650bc5.png)
 
 ## Controlling robot movement flow chart:
+![image](https://user-images.githubusercontent.com/114658809/206681734-0fd934cb-a860-4671-a006-203dcf3d7d23.png)
+
 
 ## Code Limitations:
 Unforunately there are some limitations in this code and one of them is that RRT STAR path planning doesn't consider the robot size and if it can pass in the free space between the obstacles. Another limitation was the required model to use(car-like(bicycle in robotics toolbox)) it would've been better if we were allowed to use differential drive.   
