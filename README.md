@@ -71,6 +71,6 @@ Works backward through the list of points to find the path from start to finish.
 
 
 ## Code Limitations:
-Unforunately there are some limitations in this code and one of them is that RRT STAR path planning doesn't consider the robot size and if it can pass in the free space between the obstacles. Another limitation was the required model to use(car-like(bicycle in robotics toolbox)) it would've been better if we were allowed to use differential drive.   
+Unforunately there are some limitations in this code and one of them is that RRT STAR path planning doesn't consider the robot size and if it can pass in the free space between the obstacles. Another limitation was the required model to use(car-like(bicycle in robotics toolbox)) it would've been better if we were allowed to use differential drive, we needed a more advanced library for our project. We know that the movement of the robot is not the best and that it needs further progress in the future
 
 ![image](https://user-images.githubusercontent.com/114658809/206684422-622023d4-d9dc-4716-a643-ab4ed49af4f9.png)
