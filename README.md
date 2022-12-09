@@ -4,8 +4,8 @@ This is a sample readme file for our project, our project is to make a robot rea
 ## Table of contents:
 * [Team Members](#team-members)
 * [Python version and Libraries we used](#python-version-and-libraries-we-used)
-* [Path planning using RRT](#path-planning-using-rrt)
-* [Controlling robot movement flow chart](#controlling-robot-movement-flow-chart)
+* [Path planning using RRTSTAR](#path-planning-using-rrtstar)
+* [RRTSTAR Robot Navigation](#rrtstar-robot-navigation)
 * [Code Limitations](#code-limitations)
 
 ## Team Members:
@@ -19,7 +19,7 @@ This is a sample readme file for our project, our project is to make a robot rea
 * matplotlib version 3.3.4 
 * from roboticstoolbox(version 0.10.1): Bicycle, RandomPath, VehicleIcon
 
-## Path planning using RRT:
+## Path planning using RRTSTAR:
 ```
 * function calc_distance:
 Calculates distance between two points
@@ -59,17 +59,18 @@ Generates a tree of nodes until it finds the goal to draw a straight line to the
 * function find_path:
 Works backward through the list of points to find the path from start to finish.
 ```
-## visualization of RRT* Path Finding :
+### Visualization of RRT* Path Finding :
 ![image](https://user-images.githubusercontent.com/114488000/206672837-721498a7-f4e8-4ac8-a93e-75514b28df64.png)
 
-## RRT* Robot Navigation:
+## RRTSTAR Robot Navigation:
 ![image](https://user-images.githubusercontent.com/114488000/206672507-b934d52b-8eaf-409f-b91f-3f148f6ca0c2.png)
 ![image](https://user-images.githubusercontent.com/114488000/206672984-0bcb9327-531a-4084-8e58-22694f650bc5.png)
 
-## Controlling robot movement flow chart:
+### Controlling robot movement flow chart:
 ![image](https://user-images.githubusercontent.com/114658809/206681734-0fd934cb-a860-4671-a006-203dcf3d7d23.png)
 
 
 ## Code Limitations:
 Unforunately there are some limitations in this code and one of them is that RRT STAR path planning doesn't consider the robot size and if it can pass in the free space between the obstacles. Another limitation was the required model to use(car-like(bicycle in robotics toolbox)) it would've been better if we were allowed to use differential drive.   
-<img width="311" alt="image" src="https://user-images.githubusercontent.com/114658809/206645643-2f2b125c-d7b8-4127-a8f0-566405f9b114.png">
+
+![image](https://user-images.githubusercontent.com/114658809/206684422-622023d4-d9dc-4716-a643-ab4ed49af4f9.png)
