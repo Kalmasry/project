@@ -11,7 +11,7 @@ def main():
     COLORS = ['#6AB71F', '#FF5733', '#4DAAEA', '#C0120A']
     
     
-    anim = VehicleIcon ('car.png',scale=5)
+    anim = VehicleIcon ('car1.png',scale=5)
     initial_pos=[RRT.start[0],RRT.start[1]]
     goal=[RRT.end[0],RRT.end[1]]
 
