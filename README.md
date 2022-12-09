@@ -65,6 +65,9 @@ Works backward through the list of points to find the path from start to finish.
 ## Running RRT path plan flow chart:
 ![image](https://user-images.githubusercontent.com/114658809/206564852-06696816-fb8f-47aa-b7ed-99b55b2b237e.png)
 
+## visualization of RRT* Path Finding :
+![image](https://user-images.githubusercontent.com/114488000/206625879-d2263cfe-4ebc-41fe-84c6-b2b5f4f93217.png)
+
 ## Add a robot and make it move on the RRT path plan:
 
 ## Controlling robot movement flow chart:
