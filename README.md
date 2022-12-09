@@ -70,7 +70,7 @@ Works backward through the list of points to find the path from start to finish.
 ## Add a robot and make it move on the RRT path plan:
 ```
 # call and generate RRT
-RT = RRT()
+RRT = RRT()
 
 # list of plotting colors
 # [start, end, points, path]
