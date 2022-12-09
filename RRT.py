@@ -1,7 +1,6 @@
 import random
 import math
-import matplotlib as mpl
-import matplotlib.pyplot as plt
+
 
 def calc_distance(p_1, p_2):#Calculates distance between two points, ARGUMENTS: point coordinates; tuple,  OUTPUT: Straight-line distance from p1->p2; scalar
     return math.sqrt((p_2[0]-p_1[0])**2 + (p_2[1]-p_1[1])**2)
