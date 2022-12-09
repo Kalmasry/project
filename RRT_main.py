@@ -1,7 +1,7 @@
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-from motion import RRT
+from RRT import RRT
 
 COLORS = ['#6AB71F', '#FF5733', '#4DAAEA', '#C0120A']
 
