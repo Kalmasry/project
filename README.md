@@ -1,5 +1,5 @@
 # Computer Eng Assessment 3
-This is a sample readme file for our project, our project is to make a robot reach its goal safely without passing through the obstaclesan. To make that we used RRT path plan, we created circular obstacles with random sizes and assigned some functions/methods in the RRT class to create nodes until it finds a free space(without obstacles) to make a straight line to the goal. We used matplotlib,random,math,matplotlib.pyplot libraries for path planning then we added a robot using roboticstoolbox and made it move on the nodes+lines the path plan makes.
+This is a sample readme file for our project, our project is to make a robot reach its goal safely without passing through the obstacles. To make that we used RRT path plan, we created circular obstacles with random sizes and assigned some functions/methods in the RRT class to create nodes until it finds a free space(without obstacles) to make a straight line to the goal. We used matplotlib,random,math,matplotlib.pyplot libraries for path planning then we added a robot using roboticstoolbox and made it move on the nodes+lines the path plan makes.
 
 ## Table of contents:
 * [Team Members](#team-members)
@@ -73,3 +73,5 @@ Works backward through the list of points to find the path from start to finish.
 ## Controlling robot movement flow chart:
 
 ## Code Limitations:
+Unforunately there are some limitations in this code and one of them is that RRT STAR path planning doesn't consider the robot size and if it can pass in the free space between the obstacles. Another limitation was the required model to use(car-like(bicycle in robotics toolbox)) it would've been better if we were allowed to use differential drive.   
+<img width="311" alt="image" src="https://user-images.githubusercontent.com/114658809/206645643-2f2b125c-d7b8-4127-a8f0-566405f9b114.png">
