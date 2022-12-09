@@ -71,7 +71,6 @@ Works backward through the list of points to find the path from start to finish.
 ![image](https://user-images.githubusercontent.com/114488000/206672507-b934d52b-8eaf-409f-b91f-3f148f6ca0c2.png)
 ![image](https://user-images.githubusercontent.com/114488000/206672984-0bcb9327-531a-4084-8e58-22694f650bc5.png)
 
-```
 ## Controlling robot movement flow chart:
 
 ## Code Limitations:
